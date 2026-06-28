@@ -7,10 +7,14 @@ function firstWord(s) {
 		if(s[i]!=" ") j++;
 		else break;
 	}
-	return s.slice(0,j);
+	return s.trim().slice(0,j);
 }
 
 // Do not change the code below
 
 const s = prompt("Enter String:");
 alert(firstWord(s));
+
+
+
+""
